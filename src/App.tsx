@@ -23,10 +23,10 @@ export default function App() {
       <header className="sticky top-0 z-20 border-b border-teal-400/10 bg-[#070d1a]/85 backdrop-blur-md">
         <div className="max-w-[1440px] mx-auto px-4 lg:px-6 h-14 flex items-center justify-between gap-3">
           <div className="flex items-center gap-2.5 min-w-0">
-            <img src="./icon.png" alt="حاسبة هيئة النقل العام" className="w-8 h-8 rounded-lg shadow-[0_0_16px_rgba(45,212,191,0.35)]" />
+            <img src="./icon.png" alt="آلة حاسبة متقدمة" className="w-8 h-8 rounded-lg shadow-[0_0_16px_rgba(45,212,191,0.35)]" />
             <div className="min-w-0">
-              <h1 className="text-[15px] font-black leading-4 text-teal-50 truncate">حاسبة هيئة النقل العام</h1>
-              <p className="text-[9px] text-teal-500/90 font-bold leading-4">الآلة الحاسبة المستقلة — فرع فتح</p>
+              <h1 className="text-[15px] font-black leading-4 text-teal-50 truncate">آلة حاسبة متقدمة</h1>
+              <p className="text-[9px] text-teal-500/90 font-bold leading-4">Advanced Scientific Calculator</p>
             </div>
           </div>
           <div className="hidden sm:flex items-center gap-1.5 text-[9px] font-black">
@@ -86,8 +86,8 @@ export default function App() {
       {/* ════ تذييل ════ */}
       <footer className="border-t border-slate-800/70">
         <div className="max-w-[1440px] mx-auto px-4 lg:px-6 h-10 flex items-center justify-between text-[9px] font-bold text-slate-600">
-          <span>حاسبة هيئة النقل العام المستقلة — الإصدار ١٫٠٫٠</span>
-          <span>فرع فتح · بدون eval · أرقام عربية هندية مدعومة في كل المدخلات</span>
+          <span>آلة حاسبة متقدمة — الإصدار ١٫١٫٠</span>
+          <span>بدون eval · أرقام عربية هندية مدعومة في كل المدخلات</span>
         </div>
       </footer>
     </div>

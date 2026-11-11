@@ -1,6 +1,6 @@
-appId: org.gpta.calculator
-productName: حاسبة هيئة النقل العام
-copyright: Copyright © 2026 Fath Branch — هيئة النقل العام
+appId: org.advancedcalc.calculator
+productName: آلة حاسبة متقدمة
+copyright: Copyright © 2026 AdvancedCalc
 
 directories:
   output: release
@@ -30,12 +30,12 @@ nsis:
   allowToChangeInstallationDirectory: true
   createDesktopShortcut: true
   createStartMenuShortcut: true
-  shortcutName: حاسبة هيئة النقل العام
-  uninstallDisplayName: حاسبة هيئة النقل العام
-  artifactName: NaqelCalc-Setup-${version}.${ext}
+  shortcutName: آلة حاسبة متقدمة
+  uninstallDisplayName: آلة حاسبة متقدمة
+  artifactName: AdvancedCalc-Setup-${version}.${ext}
 
 portable:
-  artifactName: NaqelCalc-Portable-${version}.${ext}
+  artifactName: AdvancedCalc-Portable-${version}.${ext}
 
 linux:
   target:
@@ -43,5 +43,5 @@ linux:
       arch:
         - x64
   category: Utility
-  maintainer: Fath Branch
-  synopsis: الآلة الحاسبة المستقلة — هيئة النقل العام
+  maintainer: AdvancedCalc
+  synopsis: آلة حاسبة متقدمة — Advanced Calculator

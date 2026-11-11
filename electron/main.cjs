@@ -39,7 +39,7 @@ function createWindow() {
     minWidth: 1100,
     minHeight: 720,
     autoHideMenuBar: true,
-    title: 'حاسبة هيئة النقل العام',
+    title: 'آلة حاسبة متقدمة',
     backgroundColor: '#070d1a',
     icon: path.join(__dirname, '..', 'dist', 'icon.png'),
     webPreferences: {

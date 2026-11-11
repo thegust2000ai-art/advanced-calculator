@@ -1,10 +1,10 @@
 {
-  "name": "gpta-calculator",
+  "name": "advanced-calc",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
-  "description": "حاسبة هيئة النقل العام المستقلة — علمية + مبرمج + RPN + رسم بياني + حل معادلات + نسبة/عمولة",
-  "author": "Fath Branch",
+  "description": "آلة حاسبة متقدمة — Advanced Calculator: علمية بوضعين و٧ ثيمات + مبرمج/RPN + رسم TI-84 + حل معادلات + نسبة/عمولة",
+  "author": "AdvancedCalc",
   "main": "electron/main.cjs",
   "scripts": {
     "dev": "vite",
