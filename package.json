@@ -1,0 +1,44 @@
+{
+  "name": "gpta-calculator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "حاسبة هيئة النقل العام المستقلة — علمية + مبرمج + RPN + رسم بياني + حل معادلات + نسبة/عمولة",
+  "author": "Fath Branch",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "desktop:dev": "vite build && electron .",
+    "dist:portable": "vite build && electron-builder --win portable",
+    "dist:win": "vite build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "function-plot": "^1.26.0",
+    "katex": "^0.19.1",
+    "mathjs": "^15.2.0",
+    "nerdamer": "^2.0.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "allowScripts": {
+    "electron@22.3.27": true,
+    "esbuild@0.27.7": true
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/katex": "^0.16.8",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "electron": "^22.3.27",
+    "electron-builder": "^24.13.3",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.3.2",
+    "vite-plugin-singlefile": "2.3.0"
+  }
+}

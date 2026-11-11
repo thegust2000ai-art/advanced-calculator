@@ -1,0 +1,47 @@
+appId: org.gpta.calculator
+productName: حاسبة هيئة النقل العام
+copyright: Copyright © 2026 Fath Branch — هيئة النقل العام
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+
+asar: true
+compression: normal
+
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+    - target: nsis
+      arch:
+        - x64
+  icon: build/icon.png
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: حاسبة هيئة النقل العام
+  uninstallDisplayName: حاسبة هيئة النقل العام
+  artifactName: NaqelCalc-Setup-${version}.${ext}
+
+portable:
+  artifactName: NaqelCalc-Portable-${version}.${ext}
+
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+  category: Utility
+  maintainer: Fath Branch
+  synopsis: الآلة الحاسبة المستقلة — هيئة النقل العام
